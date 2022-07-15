@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <!-- add font awsome cdn link to use icons -->
+    <link rel="stylesheet" href="../Assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="../Assets/images/logo.png" width="220px"  alt="logo" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <!--add a close button for a hamburger menu for ipad screen-->
+                <a id="close" href="#"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <!--make the navbar responsive -->
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping active"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i> <!--adding hamburger menu-->
+        </div>
+    </section>
+    <section id="page-header" class="about-header">
+        <h2>#Know Us</h2>
+        <p>Who Are We?</p>
+    </section>
+    <section id="about-head" class="section-p1">
+        <img src="../Assets/images/about2.jpg" alt="">
+        <div>
+            <h2>Who are we?</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, modi!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, facere.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, facilis.
+            </p>
+            <abbr title=" ">Create stunning images with as much or as little cotrol
+                as you like, thanks to a choice of basic and creative modes.
+            </abbr>
+            <br><br>
+            <marquee behavior="" direction="" width="100%" loop="-1" scrollamout="5" bgcolor="gray">
+                Create stunning images with as much or
+                as little cotrol as you like, thanks to a choice of basic and creative modes.
+            </marquee>
+        </div>
+    </section>
+    <section id="about-app" class="section-p1">
+        <h1>Download Our <a href="#">App</a></h1>
+        <div class="video">
+            <video src="../Assets/video/video.mp4" controls autoplay muted loop></video>
+        </div>
+    </section>
+    <section id="feature" class="section-p1">
+        <dev class="feature-box">
+            <img src="../Assets/images/cart.jpg" alt="" width="100px">
+            <h4>Free Shipping</h4>
+        </dev>
+        <dev class="feature-box">
+            <img src="../Assets/images/cart22.jpg" alt="" width="100px">
+            <h4>Online Order</h4>
+        </dev>
+        <dev class="feature-box">
+            <img src="../Assets/images/cart5.webp" alt="" width="100px">
+            <h4>Promotions</h4>
+        </dev>
+        <dev class="feature-box">
+            <img src="../Assets/images/cart3.jpg" alt="" width="100px">
+            <h4>Happy Sell</h4>
+        </dev>
+    </section>
+    <section id="newsletter">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get email update about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="your email address">
+            <button>Sign Up</button>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="../Assets/images/logo.png" alt="" width="200px">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>Arat Killo, Street 12, Addis Ababa</p>
+            <p><strong>Phone: </strong> +251900623587</p>
+            <p><strong>Hours: </strong>8:00 am-18:00 pm, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms and conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="../Assets/images/appstore.png" alt="" width="100" height="50">
+                <img src="../Assets/images/gplay.jpg" alt="" width="100" height="50" >
+                <p>Secured Payment Gateways</p>
+                <img src="../Assets/images/pay.png" alt="" width="100" height="50px">
+            </div>
+        </div>
+        <div class="copyrite">
+            <p>&copy; 2022, Habesha Clothes Market Center</p>
+            <p>All rights reserved!</p>
+        </div>
+    </footer>
+    
+    <script src="../Javascript/script.js"></script>
+</body>
+</html>

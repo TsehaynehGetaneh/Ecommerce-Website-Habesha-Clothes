@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <!-- add font awsome cdn link to use icons -->
+    <link rel="stylesheet" href="../Assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="../Assets/images/logo.png" width="220px"  alt="logo" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <!--add a close button for a hamburger menu for ipad screen-->
+                <a id="close" href="#"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <!--make the navbar responsive -->
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping active"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i> <!--adding hamburger menu-->
+        </div>
+    </section>
+    <section id="page-header" class="about-header">
+        <h2>#LET'S_TALK</h2>
+        <p>LEAVE A MESSAGE, We love to here from you!</p>
+    </section>
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2>Visit one of our agency locations or contact us today</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fa-solid fa-flag"></i>
+                    <p>Arat Killo Street, Addis Ababa</p>
+                </li>
+                <li>
+                    <i class="far fa-envelope"></i>
+                    <p>HabeshaClothesMarket@gmail.com</p>
+                </li>
+                <li>
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+251900623587</p>
+                </li>
+                <li>
+                    <i class="far fa-clock"></i>
+                    <p>Monday to Sunday, 24/7 available.</p>
+                </li>
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252230.01326774707!2d38.63805601187506!3d8.963489655146436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85cef5ab402d%3A0x8467b6b037a24d49!2sAddis%20Ababa!5e0!3m2!1sen!2set!4v1653852094225!5m2!1sen!2set"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+    <section id="form-details">
+        <form action="">
+            <span>LEAVE A MESSAGE!</span>
+            <h2>We love to hear from you</h2>
+            <input type="text" placeholder="Your-name" required>
+            <input type="text" placeholder="Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea cols="30" rows="10" placeholder="your message" required>
+            </textarea>
+            <button>Submit</button>
+        </form>
+        <div class="people">
+            <div>
+                <img src="../Assets/images/myPic.jpg" alt="">
+                <p><span>Tsehayneh Getaneh</span>Senior Marketing Manager<br>
+                Phone: +251900623587 <br> Email: TsehaynehGetaneh@gmail.com</p>
+            </div>
+            <div>
+                <img src="../Assets/images/myPic.jpg" alt="">
+                <p><span>Tsehayneh Getaneh</span>Senior Marketing Manager<br>
+                Phone: +251900623587 <br> Email: TsehaynehGetaneh@gmail.com</p>
+            </div>
+            <div>
+                <img src="../Assets/images/myPic.jpg" alt="">
+                <p><span>Tsehayneh Getaneh</span>Senior Marketing Manager<br>
+                Phone: +251900623587 <br> Email: TsehaynehGetaneh@gmail.com</p>
+            </div>
+        </div>
+    </section>
+    <section id="newsletter">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get email update about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="your email address">
+            <button>Sign Up</button>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="../Assets/images/logo.png" alt="" width="200px">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>Arat Killo, Street 12, Addis Ababa</p>
+            <p><strong>Phone: </strong> +251900623587</p>
+            <p><strong>Hours: </strong>8:00 am-18:00 pm, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms and conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="../Assets/images/appstore.png" alt="" width="100" height="50">
+                <img src="../Assets/images/gplay.jpg" alt="" width="100" height="50" >
+                <p>Secured Payment Gateways</p>
+                <img src="../Assets/images/pay.png" alt="" width="100" height="50px">
+            </div>
+        </div>
+        <div class="copyrite">
+            <p>&copy; 2022, Habesha Clothes Market Center</p>
+            <p>All rights reserved!</p>
+        </div>
+    </footer>
+    
+    <script src="../Javascript/script.js"></script>
+</body>
+</html>

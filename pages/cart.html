@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <!-- add font awsome cdn link to use icons -->
+    <link rel="stylesheet" href="../Assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="../Assets/images/logo.png" width="220px"  alt="logo" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <!--add a close button for a hamburger menu for ipad screen-->
+                <a id="close" href="#"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <!--make the navbar responsive -->
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping active"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i> <!--adding hamburger menu-->
+        </div>
+    </section>
+    <section id="page-header" class="about-header">
+        <h2>#Add_To_Cart</h2>
+        <p>Get your desired product!</p>
+    </section>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="../Assets/images/shirt.jpg" width=""></td>
+                    <td>T-shirts</td>
+                    <td>$45</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$200</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="../Assets/images/dress2.jpg" width=""></td>
+                    <td>Dresses</td>
+                    <td>$65</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$200</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="../Assets/images/kaba5.jpg" width=""></td>
+                    <td>Kabba</td>
+                    <td>$60</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$200</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter your coupon">
+                <button>Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart subtotal</td>
+                    <td>$322</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$444</strong></td>
+                </tr>
+            </table>
+            <button>procede to checkout</button>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="../Assets/images/logo.png" alt="" width="200px">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>Arat Killo, Street 12, Addis Ababa</p>
+            <p><strong>Phone: </strong> +251900623587</p>
+            <p><strong>Hours: </strong>8:00 am-18:00 pm, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms and conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="../Assets/images/appstore.png" alt="" width="100" height="50">
+                <img src="../Assets/images/gplay.jpg" alt="" width="100" height="50" >
+                <p>Secured Payment Gateways</p>
+                <img src="../Assets/images/pay.png" alt="" width="100" height="50px">
+            </div>
+        </div>
+        <div class="copyrite">
+            <p>&copy; 2022, Habesha Clothes Market Center</p>
+            <p>All rights reserved!</p>
+        </div>
+    </footer>

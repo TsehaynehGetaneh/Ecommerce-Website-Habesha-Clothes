@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <!-- add font awsome cdn link to use icons -->
+    <link rel="stylesheet" href="../Assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="../Assets/images/logo.png" width="220px"  alt="logo" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <!--add a close button for a hamburger menu for ipad screen-->
+                <a id="close" href="#"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <!--make the navbar responsive -->
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping active"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i> <!--adding hamburger menu-->
+        </div>
+    </section>
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="../Assets/images/Tibbeb.webp" alt="" width="100%" id="mainImg">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="../Assets/images/kaba1.jpg" alt="" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="../Assets/images/kaba2.jpg" alt="" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="../Assets/images/kaba5.jpg" alt="" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="../Assets/images/kaba4.jpg" alt="" width="100%" class="small-img">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h1>Traditional Kabba -ካባ</h1>
+            <h4>For Men & Women</h4>
+            <h2>$80</h2>
+            <select>
+                <option>select size</option>
+                <option>XXL</option>
+                <option>XL</option>
+                <option>Small</option>
+                <option>Large</option> 
+            </select>
+            <input type="number" value="1">
+            <button>Add to Cart</button>
+            <h3>Product Details</h3>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Explicabo iste at voluptatum natus magnam corrupti fugit magni amet
+            adipisci minima molestiae sint, praesentium, facere quibusdam quae laborum? 
+            Unde molestias distinctio, voluptatem atque doloribus culpa exercitationem 
+            molestiae excepturi impedit obcaecati. Exercitationem cum facilis eius sit 
+            soluta totam autem nostrum tempore mollitia?
+            </span>
+        </div>
+    </section>
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>New Modern Design Collections</p>
+        <div class="product-container">
+            <div class="product">
+            <img src="../Assets/images/new1.jpg" alt="" width="200px">
+            <div class="description">
+                <span>ቀሚስ</span>
+                <h5>Modern design dress</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$50</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="product">
+                <img src="../Assets/images/new2.jpg" alt="" width="800px" height="300px">
+                <div class="description">
+                    <span>ለጥንዶች</span>
+                    <h5>For Couples</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$45</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="product">
+                    <img src="../Assets/images/new3.jpg" alt="" width="200px" height="300px">
+                    <div class="description">
+                        <span>ለቤተሰብ</span>
+                        <h5>For Creazy Families</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$10</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                    </div>
+                    <div class="product">
+                            <img src="../Assets/images/new5.jpg" alt="" width="200px" height="300px">
+                            <div class="description">
+                                <span>ለአርቲስቶች</span>
+                                <h5>For Artists</h5>
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h4>$80</h4>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                            </div>
+        </div>
+    </section>
+    <section id="newsletter">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get email update about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="your email address">
+            <button>Sign Up</button>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="../Assets/images/logo.png" alt="" width="200px">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>Arat Killo, Street 12, Addis Ababa</p>
+            <p><strong>Phone: </strong> +251900623587</p>
+            <p><strong>Hours: </strong>8:00 am-18:00 pm, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms and conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="../Assets/images/appstore.png" alt="" width="100" height="50">
+                <img src="../Assets/images/gplay.jpg" alt="" width="100" height="50" >
+                <p>Secured Payment Gateways</p>
+                <img src="../Assets/images/pay.png" alt="" width="100" height="50px">
+            </div>
+        </div>
+        <div class="copyrite">
+            <p>&copy; 2022, Habesha Clothes Market Center</p>
+            <p>All rights reserved!</p>
+        </div>
+    </footer>
+    <script>
+        var mainImg=document.getElementById("mainImg");
+        var smallImg=document.getElementsByClassName('small-img');
+        smallImg[0].onclick=function(){
+            mainImg.src=smallImg[0].src;
+        }
+        smallImg[1].onclick=function(){
+            mainImg.src=smallImg[1].src;
+        }
+        smallImg[2].onclick=function(){
+            mainImg.src=smallImg[2].src;
+        }
+        smallImg[3].onclick=function(){
+            mainImg.src=smallImg[3].src;
+        }
+    </script>
+    
+    <script src="../Javascript/script.js"></script>
+</body>
+</html>
